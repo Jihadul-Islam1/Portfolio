@@ -1,4 +1,3 @@
-
 import React, { useMemo } from 'react';
 import { PortfolioState } from '../../types';
 import { portfolioData } from '../../data/portfolioData';
@@ -44,7 +43,7 @@ export const About: React.FC = () => {
                                 {/* Organic Shape Mask */}
                                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-cyan-600 opacity-30 blur-md animate-spin-slow" style={{ borderRadius: '48% 52% 46% 54% / 55% 45% 55% 45%' }}></div>
                                 <div className="relative w-full h-full overflow-hidden shadow-2xl" style={{ borderRadius: '48% 52% 46% 54% / 55% 45% 55% 45%' }}>
-                                    <img src="/assets/jihad.jpg" alt="Mohan Kumar Paluru" className="w-full h-full object-cover" />
+                                    <img src="./assets/jihad.jpg" alt="Jihadul Islam" className="w-full h-full object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -85,7 +84,7 @@ export const About: React.FC = () => {
                                         transform: `translateY(${scrollProgress * -20}px) scale(${1 + scrollProgress * 0.05}) rotate(-3deg)`
                                     }}
                                 >
-                                    <img src="/assets/jihad.jpg" alt="Mohan Kumar Paluru" className="w-full h-full object-cover" style={{ filter: 'contrast(1.05) saturate(1.05)' }} />
+                                    <img src="./assets/jihad.jpg" alt="Jihadul Islam" className="w-full h-full object-cover" style={{ filter: 'contrast(1.05) saturate(1.05)' }} />
                                     <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(0,0,0,0.2)] dark:shadow-[inset_0_0_20px_rgba(0,0,0,0.5)] pointer-events-none"></div>
                                 </div>
                             </div>

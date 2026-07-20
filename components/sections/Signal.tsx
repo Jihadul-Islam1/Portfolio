@@ -46,7 +46,7 @@ export const Signal: React.FC = () => {
                 </div>
 
                 <div className="mt-12 md:mt-24 text-xs md:text-sm text-slate-400 dark:text-slate-600 font-mono">
-                    END_OF_TRANSMISSION // 2026
+                    
                 </div>
             </div>
         </Section>
