@@ -1,0 +1,2 @@
+﻿name: 'Jihad'; price: $100; fn(a, b) & more; line
+break; backslash;

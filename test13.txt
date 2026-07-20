@@ -1,0 +1,2 @@
+﻿Line one with $100
+Line two: fn(a,b) & more

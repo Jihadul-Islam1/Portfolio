@@ -1,0 +1,1 @@
+﻿ = New-Object System.Text.UTF8Encoding False; [System.IO.File]::WriteAllText((Resolve-Path 'data\portfolioData.ts'), '/* placeholder */', ); Write-Host size:; (Get-Item 'data\portfolioData.ts').Length
